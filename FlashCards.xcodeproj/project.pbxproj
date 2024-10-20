@@ -75,9 +75,8 @@
 		B7BFBE332CC4B83D00CD5BA8 = {
 			isa = PBXGroup;
 			children = (
+				B7BFBE9E2CC500F100CD5BA8 /* Tests */,
 				B7BFBE3E2CC4B83D00CD5BA8 /* FlashCards */,
-				B7BFBE4F2CC4B83F00CD5BA8 /* FlashCardsTests */,
-				B7BFBE592CC4B83F00CD5BA8 /* FlashCardsUITests */,
 				B7BFBE3D2CC4B83D00CD5BA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +89,15 @@
 				B7BFBE562CC4B83F00CD5BA8 /* FlashCardsUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B7BFBE9E2CC500F100CD5BA8 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B7BFBE4F2CC4B83F00CD5BA8 /* FlashCardsTests */,
+				B7BFBE592CC4B83F00CD5BA8 /* FlashCardsUITests */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
